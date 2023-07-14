@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'Starting_Page.dart';
-
 class GradientContainer extends StatelessWidget {
   GradientContainer(this.color1, this.color2, {super.key});
 
@@ -25,7 +23,7 @@ class GradientContainer extends StatelessWidget {
           end: endAlignment,
         ),
       ),
-      child: const Center(child: StartingPage()),
+      child: const Center(),
     );
   }
 }
